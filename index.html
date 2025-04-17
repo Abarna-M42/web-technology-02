@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Technology/002</title>
+    <meta name="description" content="Web Technology/002 resource page for students, featuring syllabus, theory notes, lab manual, and reference links.">
+    <meta name="keywords" content="web technology, syllabus, theory notes, lab manual, reference links">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f5; /* Light background for better readability */
+        }
+
+        /* Header Styles */
+        header {
+            background: #4CAF50; /* Green background */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+        }
+
+        /* Navigation Styles */
+        nav {
+            background: #333;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for nav */
+        }
+
+        nav ul {
+            list-style: none; /* Removes bullet points */
+            padding: 0; /* Removes default padding */
+            display: flex; /* Align links horizontally */
+            justify-content: center; /* Center the navigation */
+        }
+
+        nav li {
+            margin: 0 15px; /* Adds spacing between items */
+        }
+
+        nav a {
+            text-decoration: none; /* Removes underline */
+            color: white; /* White text color */
+            padding: 8px 15px; /* Adds padding to links */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s; /* Smooth hover effect */
+        }
+
+        nav a:hover {
+            background-color: #575757; /* Darker background on hover */
+            text-decoration: none; /* Keep no underline */
+        }
+
+        /* Main Content Styles */
+        main {
+            max-width: 1000px; /* Set max width for the main content */
+            margin: 20px auto; /* Center the main content */
+            padding: 20px;
+            background-color: white; /* White background for readability */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 30px; /* Space between sections */
+            padding: 15px;
+            border-radius: 5px; /* Rounded corners */
+            background-color: #f9f9f9; /* Light gray background for sections */
+            border: 1px solid #ccc; /* Light gray border */
+        }
+
+        section h2 {
+            color: #333; /* Dark grey color for headings */
+            border-bottom: 2px solid #4CAF50; /* Green underline for headings */
+            padding-bottom: 10px; /* Spacing below headings */
+        }
+
+        /* List Styles */
+        .syllabus-list, .theory-notes-list, .lab-manual-list, .reference-links-list {
+            padding-left: 20px; /* Indent nested lists */
+        }
+
+        .syllabus-list li, .theory-notes-list li, .lab-manual-list li, .reference-links-list li {
+            margin-bottom: 5px; /* Space between list items */
+            padding: 5px; /* Padding for list items */
+            border-left: 2px solid #4CAF50; /* Green border on the left */
+            background-color: #ffffff; /* White background for list items */
+            transition: background-color 0.3s; /* Smooth hover effect */
+        }
+
+        .syllabus-list li:hover, 
+        .theory-notes-list li:hover, 
+        .lab-manual-list li:hover, 
+        .reference-links-list li:hover {
+            background-color: #e0f7e0; /* Light green background on hover */
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #4CAF50; /* Green background */
+            color: white; /* White text */
+            margin-top: 20px; /* Margin above footer */
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Shadow for footer */
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column; /* Stack links vertically on smaller screens */
+            }
+
+            nav li {
+                margin: 5px 0; /* Adjust margin */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Web Technology/002</h1>
+    </header>
+
+    <nav>
+        <ul class="main-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#syllabus">Syllabus</a></li>
+            <li><a href="#theory-notes">Theory Notes</a></li>
+            <li><a href="#lab-manual">Lab Manual</a></li>
+            <li><a href="#reference-links">Reference Links</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to the web technology resource page! We're glad to have you here.</p>
+        </section>
+        
+        <section id="syllabus">
+            <h2>Syllabus</h2>
+            <ul class="syllabus-list">
+                <li>Textbook 1</li>
+                <li>Textbook 2</li>
+                <li>Textbook 3</li>
+            </ul>
+        </section>
+        
+        <section id="theory-notes">
+            <h2>Theory Notes (10 Chapters)</h2>
+            <ul class="theory-notes-list">
+                <li>Chapter 1: Introduction</li>
+                <li>Chapter 2: Fundamentals</li>
+                <li>Chapter 3: Advanced Topics</li>
+                <li>Chapter 4: Applications</li>
+                <li>Chapter 5: Case Studies</li>
+                <li>Chapter 6: Best Practices</li>
+                <li>Chapter 7: Troubleshooting</li>
+                <li>Chapter 8: Security</li>
+                <li>Chapter 9: Optimization</li>
+                <li>Chapter 10: Conclusion</li>
+            </ul>
+        </section>
+        
+        <section id="lab-manual">
+            <h2>Lab Manual</h2>
+            <ol class="lab-manual-list">
+                <li>Experiment 1: Introduction to HTML</li>
+                <li>Experiment 2: Creating a Simple Web Page</li>
+                <li>Experiment 3: Styling with CSS</li>
+                <li>Experiment 4: JavaScript Basics</li>
+                <li>Experiment 5: Creating a Responsive Website</li>
+            </ol>
+        </section>
+        
+        <section id="reference-links">
+            <h2>Reference Links (20 Links)</h2>
+            <ul class="reference-links-list">
+                <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+                <li><a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer">Mozilla Developer Network</a></li>
+                <li><a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer">Stack Overflow</a></li>
+                <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://codepen.io" target="_blank" rel="noopener noreferrer">CodePen</a></li>
+                <li><a href="https://jsfiddle.net" target="_blank" rel="noopener noreferrer">JSFiddle</a></li>
+                <li><a href="https://www.freecodecamp.org" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a></li>
+                <li><a href="https://css-tricks.com" target="_blank" rel="noopener noreferrer">CSS-Tricks</a></li>
+                <li><a href="https://www.smashingmagazine.com" target="_blank" rel="noopener noreferrer">Smashing Magazine</a></li>
+                <li><a href="https://alistapart.com" target="_blank" rel="noopener noreferrer">A List Apart</a></li>
+                <li><a href="https://developers.google.com" target="_blank" rel="noopener noreferrer">Google Developers</a></li>
+                <li><a href="https://developer.microsoft.com" target="_blank" rel="noopener noreferrer">Microsoft Developer</a></li>
+                <li><a href="https://developer.apple.com" target="_blank" rel="noopener noreferrer">Apple Developer</a></li>
+                <li><a href="https://getbootstrap.com" target="_blank" rel="noopener noreferrer">Bootstrap</a></li>
+                <li><a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">Tailwind CSS</a></li>
+                <li><a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">React</a></li>
+                <li><a href="https://angular.io" target="_blank" rel="noopener noreferrer">Angular</a></li>
+                <li><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer">Vue.js</a></li>
+                <li><a href="https://nodejs.org" target="_blank" rel="noopener noreferrer">Node.js</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Web Technology/002. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
